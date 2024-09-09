@@ -37,3 +37,13 @@ First, you'll need to run `npm run edge:build`, and then, to deploy to Wasmer Ed
 ```bash
 wasmer deploy
 ```
+
+set the following .env
+
+* WASMER_TOKEN
+* CLOUDFLARE_API_TOKEN
+* CLOUDFLARE_ACCOUNT_ID
+
+```
+gh secret set -f .env  -R meta-introspector/next-wasm-o1js-mina-zkapp-introspector
+```
