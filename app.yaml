@@ -1,4 +1,4 @@
-name: next-wasm-o1js-mina-zkapp-introspector
+name: zkapp-introspector
 owner: jmikedupont2
 package: .
 kind: wasmer.io/App.v0
