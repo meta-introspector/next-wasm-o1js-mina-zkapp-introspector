@@ -46,5 +46,7 @@ jobs:
         run: pnpm install
       - name: Build Next.js
         run: pnpm edge:build
+      - name: Build Next.js2
+        run: npm run edge:build
       - name: Deploy app to Wasmer Edge
         run: wasmer deploy --token=${{ secrets.WASMER_TOKEN }} --publish-package --non-interactive --no-wait --no-persist-id

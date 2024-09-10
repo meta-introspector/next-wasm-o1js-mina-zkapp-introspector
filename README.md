@@ -47,3 +47,8 @@ set the following .env
 ```
 gh secret set -f .env  -R meta-introspector/next-wasm-o1js-mina-zkapp-introspector
 ```
+### Test locally via act
+
+```
+act -s GITHUB_TOKEN="$(gh auth token)"
+```
